@@ -1,0 +1,39 @@
+body {
+background-color: pink;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+
+h1 {
+    margin: 1.5em auto;
+}
+h1:hover {
+    color: black;
+}
+img {
+    max-width: 20%;
+}
+.bold {
+    font-weight: bolder;
+}
+
+ol {
+    text-align: left;
+    list-style-position: inside;
+    margin-left: 20%;
+    color: black;
+    font-weight: bold;
+}
+ol li {
+    padding-bottom: .7em;
+}
+.quote {
+    text-align: center;
+    max-width: 30%;
+    font-size: 1.6em;
+    display: inline-block;
+}
+.name {
+    color: black;
+}
