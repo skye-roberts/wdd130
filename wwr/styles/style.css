@@ -1,6 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    width: 100%;
 }
 
 nav a {
@@ -48,6 +49,11 @@ header {
 .book:hover, .join:hover {
     background-color: #E9D8A6;
     color: #CA6702;
+}
+
+#book {
+    width: 100%;
+    text-align: center;
 }
 
 .msg {
