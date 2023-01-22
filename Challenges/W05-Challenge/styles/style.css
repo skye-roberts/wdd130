@@ -1,0 +1,18 @@
+#background {
+    background-color: #71797E;
+}
+
+#header {
+    width: 100%;
+}
+
+.photo {
+    border: 40px solid #4C4E52;
+    border-radius: 50%;
+    margin: 100px;
+}
+
+#photo {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+fieldset {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: rgb(199, 164, 164);
+    margin-left: 30px;
+}
+
+legend {
+    font-weight: bold;
+    background-color: rgb(40, 41, 41);
+    color: white;
+    padding: .2em .4em;
+    width: auto;
+    align-items: center;
+}
+
+.photo {
+    width: auto;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#white {
+    border: 3.5px solid white;
+    height: 550px;
+}
+
+#home {
+    height: 557px;
+}
+
+p {
+    text-align: center;
+    margin: 15px 10px;
+}

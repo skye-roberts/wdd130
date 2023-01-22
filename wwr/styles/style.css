@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Paytone+One&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,10 +33,15 @@ main section {
 #background {
     height: 725px;
     background-color: #E9D8A6;
+    margin-bottom: 100px;
 }
 
 body {
     background-color: white;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -44,6 +52,10 @@ header {
     background-color: #CA6702;
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -58,11 +70,16 @@ header {
 
 .msg {
     background-color: #0A9396;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
 footer {
     background-color: #9B2226;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -93,12 +110,51 @@ h4 {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo, .icon {
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
 #hero-img {
     width: 100%;
+}
+
+h1, h2 {
+    font-family: "Paytone One", "Montserrat", Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #E9D8A6;
+}
+
+main section img {
+    box-sizing: border-box;
 }
