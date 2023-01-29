@@ -1,0 +1,42 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gray {
+    background-color: lightgray;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.image {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.tart {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: center;
+    text-align: center;
+    z-index: 1;
+    font-size: 8em;
+    font-weight: bolder;
+    letter-spacing: .3em;
+}
+
+.cherry {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;
+    align-self: center;
+    text-align: center;
+    color: darkred;
+    font-size: 5em;
+    letter-spacing: .2em;
+    font-weight: bolder;
+}
