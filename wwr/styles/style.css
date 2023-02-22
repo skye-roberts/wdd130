@@ -246,6 +246,10 @@ main section img {
     box-shadow: 5px 5px 10px black;
     width: 100%;
 }
+.grid-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 .grand3, .salmon {
     grid-column: 2/4;
 }
