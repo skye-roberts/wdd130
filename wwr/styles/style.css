@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Paytone+One&display=swap');
 
+/* HOME PAGE */
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -115,10 +117,6 @@ footer p {
     font-size: 1.2em;
 }
 
-.home-title {
-    color: black;
-}
-
 h4 {
     color: black;
 }
@@ -227,6 +225,45 @@ main section img {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+
+/* ADVENTURES PAGE */
+#hero2-img {
+    width: 100%;
+    overflow: hidden;
+    /* clip-path: inset(200px 0px 0px 0px); */
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    grid-gap: 2em;
+}
+.grid-img {
+    border: 10px solid #E9D8A6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    width: 100%;
+}
+.grand3, .salmon {
+    grid-column: 2/4;
+}
+.grand6, .desolation {
+    grid-column: 5/7;
+}
+
+.button-book {
+    text-align: center;
+    grid-column: 4/5;
+}
+
+.rates-title {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
