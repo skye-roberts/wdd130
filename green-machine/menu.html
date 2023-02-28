@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html"><img class="logo" src="images/logo.png" alt="Green Machine Logo"></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="classes.html">Classes</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            <div class="social-header">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </header>
+        <main>
+            <img src="images/smoothie.jpg">
+            <h1>MENU</h1>
+            <section class="menu">
+                <div class="tab">
+                    <button class="tablinks" onclick="openMenu(event, 'breakfasts')">Breakfasts</button>
+                    <button class="tablinks" onclick="openMenu(event, 'sandwiches-burgers')">Sandwiches & Burgers</button>
+                    <button class="tablinks" onclick="openMenu(event, 'pizza-pasta')">Pizza & Pasta</button>
+                    <button class="tablinks" onclick="openMenu(event, 'salads')">Soups & Salads</button>
+                    <button class="tablinks" onclick="openMenu(event, 'desserts')">Desserts</button>
+                    <button class="tablinks" onclick="openMenu(event, 'sides')">Sides</button>
+                    <button class="tablinks" onclick="openMenu(event, 'drinks')">Drinks</button>
+                  </div>
+                  
+                  <div id="breakfasts" class="tabcontent">
+                    <h2>Breakfasts</h2>
+                    <h3>Sourdough Pancakes $7.39</h3>
+                    <p>Three fluffy pancakes served with sliced strawberries, whipped cream and homemade caramel syrup. All You Can Eat, Dine-in only.</p>
+                    <h3>Banana Nut Pancakes $6.99</h3>
+                    <p>Three whole-grain banana pancakes served with walnuts and homemade caramel syrup. </p>
+                    <h3>Chunky Cinnamon French Toast $7.39</h3>
+                    <p>Two thick slices of chunky cinnamon french toast served with sliced strawberries, whipped cream and homemade caramel syrup. *All You Can Eat, Dine-in only.</p>
+                    <h3>Greek Omelet $7.99</h3>
+                    <p>3 oz. scrambled omelet with spinach, feta cheese and portabella mushrooms. Served with wheat toast and a strawberry.</p>
+                    <h3>Italian Omelet $7.99</h3>
+                    <p>3 oz. scrambled omelet with sausage, mozzarella cheese, red bell peppers and fresh basil. Served with wheat toast and a strawberry.</p>
+                    <h3>Vanilla Greek Parfait $3.99</h3>
+                    <p>Creamy vanilla Greek yogurt layered with fresh strawberries, raspberries, and blueberries and topped with a pinch of slivered almonds. Served with a side of granola.</p>
+                    <h3>Kid's Pancakes $3.99</h3>
+                    <p>3 silver dollar size pancakes with a banana sliced over the top. Served with homemade caramel syrup and choice of milk or juice. </p>
+                    <h3>Breakfast Sides</h3>
+                    <ul class="breakfast-list">
+                        <li>Slice of Bacon $0.75</li>
+                        <li>Ham $1.50</li>
+                        <li>Sausage $1.50</li>
+                        <li>Scrambled Egg $1.50</li>
+                        <li>Fried Egg $1.50</li>
+                        <li>Egg Whites $1.99</li>
+                        <li>Strawberries $1.50</li>
+                        <li>Whipped Topping $1.50</li>
+                    </ul>
+                  </div>
+
+                  <div id="sandwiches-burgers" class="tabcontent">
+                    <h2>Sandwiches</h2>
+                    <p>(Gluten-free available upon request)</p>
+                    <h3>Turkey Bacon Avocado Sandwich $11.39</h3>
+                    <p>Slow roasted hand pulled turkey, bacon, avocado, Kneaders' sauce, provolone cheese, lettuce, tomatoes, red onions, salt, and pepper. Served on Focaccia bread.</p>
+                    <h3>French Dip $9.99</h3>
+                    <p>Roast beef, Swiss cheese, salt, and pepper. Served on a Baguette with a side of Au Jus.</p>
+                    <h3>Turkey Cranberry Sandwich $10.39</h3>
+                    <p>Slow-roasted hand-pulled turkey, cranberry sauce, Swiss cheese, lettuce, salt, and pepper. Served on a croissant with a side of spring greens and balsamic vinaigrette.</p>
+                    <h3>Turkey Artichoke Panini $11.79</h3>
+                    <p>Slow-roasted hand-pulled turkey, fresh pesto butter, mayonnaise, mozzarella cheese, artichoke hearts, spinach, tomatoes, red onions, salt, and pepper. Served hot on Focaccia bread with a side of parmesan chips.</p>
+                    <h3>Chicken Pesto Panini $11.79</h3>
+                    <p>Grilled chicken breast, fresh pesto butter, provolone cheese, fresh basil, tomatoes, red onions, salt, and pepper. Served hot on French Country Sourdough bread with a side of parmesan chips.</p>
+                    <h2>Burgers</h2>
+                    <p>(Gluten-free available upon request)</p>
+                    <h3>Colorado Black Bean Burger $10.69</h3>
+                    <p>Black bean patty, pepper jack cheese, melted cheddar cheese, grilled Anaheim chiles, lettuce, tomatoes and mayo on a toasted spicy chipotle bun.</p>
+                    <h3>Truffle Mushroom Swiss Black Bean Burger $10.69</h3>
+                    <p>Black bean patty patty, aged Swiss cheese, sautéed crimini mushrooms and truffle mayo on a toasted bun.</p>
+                    <h3>Smoked Bacon Brisket Burger $12.19</h3>
+                    <p>Certified Angus Beef, aged cheddar cheese, brisket, applewood smoked bacon, pickles and bbq sauce on a toasted brioche bun</p>
+                    <h3>Avocado Bacon Club Burger $8.69</h3>
+                    <p>Certified Angus Beef, freshly smashed avocado, applewood smoked bacon, lettuce, tomatoes, ranch and mayo on a toasted multi-grain bun.</p>
+                    <h3>Benedict Burger</h3>
+                    <p>Certified Angus Beef, provolone cheese, hollandaise sauce, a fried egg and sliced ham on a whole wheat ciabatta bun.</p>
+                  </div>
+
+                  <div id="pizza-pasta" class="tabcontent">
+                    <h2>Pizza</h2>
+                    <h3>BBQ Chicken Pizza $17.49</h3>
+                    <p>Our legendary BBQ sauce, smoked Gouda, red onions and fresh cilantro transform this original to iconic. Also available with applewood smoked bacon or fresh pineapple.</p>
+                    <h3>Mushroom Pepperoni Sausage $18.49</h3>
+                    <p>Cremini mushrooms, rustic pepperoni, spicy Italian sausage, fresh torn basil, Mozzarella and wild Greek oregano.</p>
+                    <h3>Cauliflower Crust Kicken Chicken Pizza $13.00</h3>
+                    <p>Spicy ranch, chicken, bacon, tomatoes, red onions, topped with mozzarella and feta cheese.</p>
+                    <h2>Pasta</h2>
+                    <h3>Pasta Milano $17.50</h3>
+                    <p>Roasted chicken, sun-dried tomatoes, mushrooms, rigatoni, and roasted-garlic cream sauce.</p>
+                    <h3>Butternut Tortellacci $17.50</h3>
+                    <p>Tortellacci stufed with four-cheese blend, asiago cream, butternut squash, prosciutto, and parmesan.</p>
+                    <h3>Seafood Ravioli $21.50</h3>
+                    <p>Seafood-filled fresh pasta, roma tomatoes, asparagus with lemon butter and shrimp.</p>
+                  </div>
+                  
+                  <div id="salads" class="tabcontent">
+                    <h2>Soups</h2>
+                    <h3>Soup with Bread</h3>
+                    <p>Your choice of soup in a 12oz bowl. Served with a choice of bread, croutons or roll. $7.39</p>
+                    <ul class="soup-list">
+                        <li>Cheddar Broccoli</li>
+                        <li>Chicken Noodle</li>
+                        <li>Creamy Tomato</li>
+                        <li>White Bean Chicken Chili</li>
+                        <li>Potato Bacon</li>
+                        <li>Beef Stew</li>
+                    </ul>
+                    <h2>Salads</h2>
+                    <h3>Bibb & Bleu $11.50</h3>
+                    <p>Bibb leaves, gorgonzola, walnuts, crispy prosciutto, crispy onions, pickled red onions, and buttermilk ranch.</p>
+                    <h3>Chicken Raspberry Nut $10.99</h3>
+                    <p>Greens, grilled chicken breast, feta cheese, red onions, fresh berries, candied pecans, salt, and pepper. Served with a slice of bread, croutons, or roll and raspberry walnut vinaigrette dressing on the side.</p>
+                    <h3>Southwest BBQ Chicken $10.99</h3>
+                    <p>Greens, grilled BBQ chicken, fresh cilantro, tomatoes, black beans, avocado, red onion, corn, salt, and pepper. Served with crisp tortilla strips over the top and a Cotijo Cilantro dressing on the side.</p>
+                    <h3>Large Green Avocado $9.99</h3>
+                    <p>Greens, mozzarella cheese, tomatoes, cucumbers, red onions, avocado, salt, and pepper.  Served with a slice of bread, croutons, or roll and ranch dressing on the side.</p>
+                    <h3>Bowtie Pesto Pasta Salad $9.99</h3>
+                    <p>Housemade bowtie pasta with pesto, mozzarella and cherry tomatoes.</p>
+                  </div>
+
+                  <div id="desserts" class="tabcontent">
+                    <h2>Desserts</h2>
+                    <h3>Lemon Velvet Tart $4.79</h3>
+                    <p>A shortbread tart shell imported from Switzerland, layered with white chocolate, homemade raspberry filling, and creamy lemon velvet. Topped with a fresh raspberry.</p>
+                    <h3>Chocolate Mousse Dome $4.79</h3>
+                    <p>Chocolate cake, with a mound of imported Swiss chocolate mousse, covered with imported chocolate ganache and topped with whipped topping. </p>
+                    <h3>Gluten-free Double Peanut Butter Cookie $3.39</h3>
+                    <p>A rich peanut butter cookie loaded with peanut butter chips. </p>
+                    <h3>Dairy-free Raspberry Almond Muffin Top $4.79</h3>
+                    <p>Muffin batter filled with fresh raspberries and a hint of lemon. Topped with a toasted almond streusel and raspberry glaze.</p>
+                    <h3>Gluten-free Raspberry Almond Cake $4.79</h3>
+                    <p>Almond cake base with pastry cream and raspberries.</p>
+                  </div>
+
+                  <div id="sides" class="tabcontent">
+                    <h2>Sides</h2>
+                    <h3>Stuffed Mushrooms $11.50</h3>
+                    <p>Mushroom caps flled with sausage, goat cheese, ricotta + spinach, mediterranean vinaigrette </p>
+                    <h3>Calamari Fritti $19.50</h3>
+                    <p>Crispy calamari, calabrian pepper pesto, citrys black pepper aioli</p>
+                    <h3>Spinach & Artichoke Dip $8.50</h3>
+                    <p>spinach, artichokes, parmesan, mozzarella, hint of spice, garlic-brushed rosemary bread</p>
+                  </div>
+
+                  <div id="drinks" class="tabcontent">
+                    <h2>Drinks</h2>
+                    <h3>Fresh Lemonade $2.99</h3>
+                    <p>Fresh everyday, choice of lemon, raspberry, lime, or strawberry. 12oz.</p>
+                    <h3>Strawberry Tsunami Smoothie $6.39</h3>
+                    <p>Cranberry juice, pineapple sherbet, peaches, and strawberries</p>
+                    <h3>No Dairy Berry Smoothie $6.39</h3>
+                    <p>Guava juice, peaches, strawberry, and banana.</p>
+                    <h3>Mornin' Sunshine Smoothie $6.39</h3>
+                    <p>Orange juice, nonfat vanilla yogurt, strawberry, and banana.</p>
+                    <h3>Planet Peaches Smoothie $6.39</h3>
+                    <p>Peach juice, nonfat vanilla yogurt, peaches, and mango</p>
+                  </div>
+            </section>
+            <img src="images/benedict-burger.jpg">
+            <img src="images/pizza.jpg">
+            <img src="images/cake.jpg">
+            <img src="images/pancake.jpg">
+            <div class="inspiration-background"></div>
+            <h2>Our inspiration</h2>
+            <p>Beyond serving delicious and healthy food, our main purpose is to change lives from the inside out. This purpose is reflected by an evergreen menu featuring flavors from around the world, made with only whole ingredients—unprocessed and unrefined—to help everyone eat better, feel different.</p>
+            <img src="images/garden.jpg">
+        </main>
+        <footer>
+            <div class="footer-links">
+                <img src="images/logo-white.png" alt="Green Machine Logo" class="logo">
+                <p><a href="site-plan.html">Site Plan</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+                <p>Green Machine &copy; 2023</p>
+            </div>
+            <div class="social-footer">
+                <p class="footer-header">@GreenMachine</p>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a><p class="social" id="facebook">Facebook</p>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a><p class="social" id="twitter">Twitter</p>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a><p class="social" id="instagram">Instagram</p>
+            </div>
+            <div class="hours">
+                <p class="footer-header">Hours</p>
+                <p>Monday: 11am - 4pm</p>
+                <p id="footer-class">(Community cooking class Mondays at 5:30pm, more information <a href="classes.html">here</a>)</p>
+                <p>Tuesday - Friday: 9am - 10pm </p>
+                <p>Saturday: 12pm - 10pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
