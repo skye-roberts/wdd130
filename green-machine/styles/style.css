@@ -16,7 +16,7 @@
 header {
     background-color: rgba(42,46,48,100%);
     display: grid;
-    grid-template-columns: repeat (8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 nav a {
@@ -121,7 +121,7 @@ footer {
 .footer-class a:hover {
     /* background-color: white; */
     color: #BC4749;
-    font-style: bolder;
+    font-weight: bold;
 }
 
 .social-footer, .social-footer-green {
