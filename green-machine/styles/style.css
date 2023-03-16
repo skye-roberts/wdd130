@@ -11,6 +11,7 @@
     font-family: "josefin sans";
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden: */
 }
 
 header {
@@ -376,6 +377,160 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+/* MENU PAGE */
+
+.menu{
+    box-sizing: border-box
+}
+
+/* Style the tab */
+.tab {
+    float: left;
+    background-color: #f1f1f1;
+    width: 20%;
+    height: auto;
+    margin-top: -142.8px;
+    margin-left: 200px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 41px 15px;
+    margin-left: 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.2em;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: right;
+    width: 40%;
+    border-left: none;
+    height: 700px;
+    padding-right: 310px;
+    margin-top: 15px;
+}
+.tabcontent h2 {
+    font-size: 2em;
+}
+
+#menu-title {
+    font-size: 8em;
+    text-align: center;
+    margin: 40px 0px 20px 250px;
+    text-decoration: underline;
+}
+
+.picture-border {
+    display: flex;
+    flex-wrap:wrap;
+    row-gap: 10px;
+    width: 100%;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: #111;
+}
+.picture-border img {
+    width: 95%;
+}
+
+#menu-main {
+    background-color: white;
+}
+
+.container1 {
+    position: relative;
+    width: 20%;
+}
+  
+.image1 {
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 100%;
+}
+  
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container1:hover .image1 {
+    opacity: 0.3;
+}
+  
+.container1:hover .middle1 {
+    opacity: 1;
+}
+  
+.text1 {
+    background-color: #5c8660;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.inspiration-background {
+    background-color: whitesmoke;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 2fr 100px 1fr 100px;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#garden-img {
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    border: 10px solid #5c8660;
+    margin: -10px;
+    padding: 5px;
+}
+#inspiration-quote {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#inspiration-quote h2 {
+    font-size: 3em;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-decoration-color: #5c8660;
+}
+#inspiration-quote p {
+    font-size: 2em;
+    font-family: "reenie beanie";
+}   
+
+
 
 
 /* CONTACT US */

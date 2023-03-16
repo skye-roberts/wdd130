@@ -41,36 +41,37 @@
                 </a>
             </div>
         </header>
-        <main>
-            <img src="images/masha-rostovskaya-Cngzg6CiEU8-unsplash.jpg" id="hero-img">
-            <h1>MENU</h1>
+        <main id="menu-main">
+            <img src="images/waffle.jpg" id="hero-img">
+            <h1 id="menu-title">MENU</h1>
             <section class="menu">
                 <div class="tab">
                     <button class="tablinks" onclick="openMenu(event, 'breakfasts')">Breakfasts</button>
-                    <button class="tablinks" onclick="openMenu(event, 'sandwiches-burgers')">Sandwiches & Burgers</button>
+                    <button class="tablinks" onclick="openMenu(event, 'sandwiches')">Sandwiches</button>
+                    <button class="tablinks" onclick="openMenu(event, 'burgers')">Burgers</button>
                     <button class="tablinks" onclick="openMenu(event, 'pizza-pasta')">Pizza & Pasta</button>
                     <button class="tablinks" onclick="openMenu(event, 'salads')">Soups & Salads</button>
                     <button class="tablinks" onclick="openMenu(event, 'desserts')">Desserts</button>
                     <button class="tablinks" onclick="openMenu(event, 'sides')">Sides</button>
                     <button class="tablinks" onclick="openMenu(event, 'drinks')">Drinks</button>
-                  </div>
+                </div>
                   
-                  <div id="breakfasts" class="tabcontent">
-                    <h2>Breakfasts</h2>
+                <div id="breakfasts" class="tabcontent">
+                    <h2>Breakfasts</h2><br>
                     <h3>Sourdough Pancakes $7.39</h3>
-                    <p>Three fluffy pancakes served with sliced strawberries, whipped cream and homemade caramel syrup. All You Can Eat, Dine-in only.</p>
+                    <p>Three fluffy pancakes served with sliced strawberries, whipped cream and homemade caramel syrup. All You Can Eat, Dine-in only.</p><br>
                     <h3>Banana Nut Pancakes $6.99</h3>
-                    <p>Three whole-grain banana pancakes served with walnuts and homemade caramel syrup. </p>
+                    <p>Three whole-grain banana pancakes served with walnuts and homemade caramel syrup. </p><br>
                     <h3>Chunky Cinnamon French Toast $7.39</h3>
-                    <p>Two thick slices of chunky cinnamon french toast served with sliced strawberries, whipped cream and homemade caramel syrup. *All You Can Eat, Dine-in only.</p>
+                    <p>Two thick slices of chunky cinnamon french toast served with sliced strawberries, whipped cream and homemade caramel syrup. *All You Can Eat, Dine-in only.</p><br>
                     <h3>Greek Omelet $7.99</h3>
-                    <p>3 oz. scrambled omelet with spinach, feta cheese and portabella mushrooms. Served with wheat toast and a strawberry.</p>
+                    <p>3 oz. scrambled omelet with spinach, feta cheese and portabella mushrooms. Served with wheat toast and a strawberry.</p><br>
                     <h3>Italian Omelet $7.99</h3>
-                    <p>3 oz. scrambled omelet with sausage, mozzarella cheese, red bell peppers and fresh basil. Served with wheat toast and a strawberry.</p>
+                    <p>3 oz. scrambled omelet with sausage, mozzarella cheese, red bell peppers and fresh basil. Served with wheat toast and a strawberry.</p><br>
                     <h3>Vanilla Greek Parfait $3.99</h3>
-                    <p>Creamy vanilla Greek yogurt layered with fresh strawberries, raspberries, and blueberries and topped with a pinch of slivered almonds. Served with a side of granola.</p>
+                    <p>Creamy vanilla Greek yogurt layered with fresh strawberries, raspberries, and blueberries and topped with a pinch of slivered almonds. Served with a side of granola.</p><br>
                     <h3>Kid's Pancakes $3.99</h3>
-                    <p>3 silver dollar size pancakes with a banana sliced over the top. Served with homemade caramel syrup and choice of milk or juice. </p>
+                    <p>3 silver dollar size pancakes with a banana sliced over the top. Served with homemade caramel syrup and choice of milk or juice. </p><br>
                     <h3>Breakfast Sides</h3>
                     <ul class="breakfast-list">
                         <li>Slice of Bacon $0.75</li>
@@ -82,56 +83,60 @@
                         <li>Strawberries $1.50</li>
                         <li>Whipped Topping $1.50</li>
                     </ul>
-                  </div>
+                </div>
 
-                  <div id="sandwiches-burgers" class="tabcontent">
+                <div id="sandwiches" class="tabcontent">
                     <h2>Sandwiches</h2>
-                    <p>(Gluten-free available upon request)</p>
+                    <p>(Gluten-free available upon request)</p><br>
                     <h3>Turkey Bacon Avocado Sandwich $11.39</h3>
-                    <p>Slow roasted hand pulled turkey, bacon, avocado, Kneaders' sauce, provolone cheese, lettuce, tomatoes, red onions, salt, and pepper. Served on Focaccia bread.</p>
+                    <p>Slow roasted hand pulled turkey, bacon, avocado, Kneaders' sauce, provolone cheese, lettuce, tomatoes, red onions, salt, and pepper. Served on Focaccia bread.</p><br>
                     <h3>French Dip $9.99</h3>
-                    <p>Roast beef, Swiss cheese, salt, and pepper. Served on a Baguette with a side of Au Jus.</p>
+                    <p>Roast beef, Swiss cheese, salt, and pepper. Served on a Baguette with a side of Au Jus.</p><br>
                     <h3>Turkey Cranberry Sandwich $10.39</h3>
-                    <p>Slow-roasted hand-pulled turkey, cranberry sauce, Swiss cheese, lettuce, salt, and pepper. Served on a croissant with a side of spring greens and balsamic vinaigrette.</p>
+                    <p>Slow-roasted hand-pulled turkey, cranberry sauce, Swiss cheese, lettuce, salt, and pepper. Served on a croissant with a side of spring greens and balsamic vinaigrette.</p><br>
                     <h3>Turkey Artichoke Panini $11.79</h3>
-                    <p>Slow-roasted hand-pulled turkey, fresh pesto butter, mayonnaise, mozzarella cheese, artichoke hearts, spinach, tomatoes, red onions, salt, and pepper. Served hot on Focaccia bread with a side of parmesan chips.</p>
+                    <p>Slow-roasted hand-pulled turkey, fresh pesto butter, mayonnaise, mozzarella cheese, artichoke hearts, spinach, tomatoes, red onions, salt, and pepper. Served hot on Focaccia bread with a side of parmesan chips.</p><br>
                     <h3>Chicken Pesto Panini $11.79</h3>
-                    <p>Grilled chicken breast, fresh pesto butter, provolone cheese, fresh basil, tomatoes, red onions, salt, and pepper. Served hot on French Country Sourdough bread with a side of parmesan chips.</p>
+                    <p>Grilled chicken breast, fresh pesto butter, provolone cheese, fresh basil, tomatoes, red onions, salt, and pepper. Served hot on French Country Sourdough bread with a side of parmesan chips.</p><br>
+                    <h3>BLT Panini $12.49</h3>
+                    <p>Bacon, lettuce, tomato and fresh pesto button. Served on French Country Sourdough bread with a side of parmesan chips.</p>
+                </div>
+                <div id="burgers" class="tabcontent">
                     <h2>Burgers</h2>
-                    <p>(Gluten-free available upon request)</p>
+                    <p>(Gluten-free available upon request)</p><br>
                     <h3>Colorado Black Bean Burger $10.69</h3>
-                    <p>Black bean patty, pepper jack cheese, melted cheddar cheese, grilled Anaheim chiles, lettuce, tomatoes and mayo on a toasted spicy chipotle bun.</p>
+                    <p>Black bean patty, pepper jack cheese, melted cheddar cheese, grilled Anaheim chiles, lettuce, tomatoes and mayo on a toasted spicy chipotle bun.</p><br>
                     <h3>Truffle Mushroom Swiss Black Bean Burger $10.69</h3>
-                    <p>Black bean patty patty, aged Swiss cheese, sautéed crimini mushrooms and truffle mayo on a toasted bun.</p>
+                    <p>Black bean patty patty, aged Swiss cheese, sautéed crimini mushrooms and truffle mayo on a toasted bun.</p><br>
                     <h3>Smoked Bacon Brisket Burger $12.19</h3>
-                    <p>Certified Angus Beef, aged cheddar cheese, brisket, applewood smoked bacon, pickles and bbq sauce on a toasted brioche bun</p>
+                    <p>Certified Angus Beef, aged cheddar cheese, brisket, applewood smoked bacon, pickles and bbq sauce on a toasted brioche bun</p><br>
                     <h3>Avocado Bacon Club Burger $8.69</h3>
-                    <p>Certified Angus Beef, freshly smashed avocado, applewood smoked bacon, lettuce, tomatoes, ranch and mayo on a toasted multi-grain bun.</p>
+                    <p>Certified Angus Beef, freshly smashed avocado, applewood smoked bacon, lettuce, tomatoes, ranch and mayo on a toasted multi-grain bun.</p><br>
                     <h3>Benedict Burger</h3>
                     <p>Certified Angus Beef, provolone cheese, hollandaise sauce, a fried egg and sliced ham on a whole wheat ciabatta bun.</p>
-                  </div>
+                </div>
 
-                  <div id="pizza-pasta" class="tabcontent">
+                <div id="pizza-pasta" class="tabcontent">
                     <h2>Pizza</h2>
+                    <p>(Gluten-free available upon request)</p><br>
                     <h3>BBQ Chicken Pizza $17.49</h3>
-                    <p>Our legendary BBQ sauce, smoked Gouda, red onions and fresh cilantro transform this original to iconic. Also available with applewood smoked bacon or fresh pineapple.</p>
+                    <p>Our legendary BBQ sauce, smoked Gouda, red onions and fresh cilantro transform this original to iconic. Also available with applewood smoked bacon or fresh pineapple.</p><br>
                     <h3>Mushroom Pepperoni Sausage $18.49</h3>
-                    <p>Cremini mushrooms, rustic pepperoni, spicy Italian sausage, fresh torn basil, Mozzarella and wild Greek oregano.</p>
+                    <p>Cremini mushrooms, rustic pepperoni, spicy Italian sausage, fresh torn basil, Mozzarella and wild Greek oregano.</p><br>
                     <h3>Cauliflower Crust Kicken Chicken Pizza $13.00</h3>
-                    <p>Spicy ranch, chicken, bacon, tomatoes, red onions, topped with mozzarella and feta cheese.</p>
-                    <h2>Pasta</h2>
+                    <p>Spicy ranch, chicken, bacon, tomatoes, red onions, topped with mozzarella and feta cheese.</p><br><br>
+                    <h2>Pasta</h2><br>
                     <h3>Pasta Milano $17.50</h3>
-                    <p>Roasted chicken, sun-dried tomatoes, mushrooms, rigatoni, and roasted-garlic cream sauce.</p>
+                    <p>Roasted chicken, sun-dried tomatoes, mushrooms, rigatoni, and roasted-garlic cream sauce.</p><br>
                     <h3>Butternut Tortellacci $17.50</h3>
-                    <p>Tortellacci stufed with four-cheese blend, asiago cream, butternut squash, prosciutto, and parmesan.</p>
+                    <p>Tortellacci stufed with four-cheese blend, asiago cream, butternut squash, prosciutto, and parmesan.</p><br>
                     <h3>Seafood Ravioli $21.50</h3>
                     <p>Seafood-filled fresh pasta, roma tomatoes, asparagus with lemon butter and shrimp.</p>
-                  </div>
+                </div>
                   
-                  <div id="salads" class="tabcontent">
-                    <h2>Soups</h2>
-                    <h3>Soup with Bread</h3>
-                    <p>Your choice of soup in a 12oz bowl. Served with a choice of bread, croutons or roll. $7.39</p>
+                <div id="salads" class="tabcontent">
+                    <h2>Soups</h2><br>
+                    <h3>Your choice of soup in a 12oz bowl. Served with a choice of bread, croutons or roll. $7.39</h3>
                     <ul class="soup-list">
                         <li>Cheddar Broccoli</li>
                         <li>Chicken Noodle</li>
@@ -139,66 +144,127 @@
                         <li>White Bean Chicken Chili</li>
                         <li>Potato Bacon</li>
                         <li>Beef Stew</li>
-                    </ul>
-                    <h2>Salads</h2>
+                    </ul><br><br>
+                    <h2>Salads</h2><br>
                     <h3>Bibb & Bleu $11.50</h3>
-                    <p>Bibb leaves, gorgonzola, walnuts, crispy prosciutto, crispy onions, pickled red onions, and buttermilk ranch.</p>
+                    <p>Bibb leaves, gorgonzola, walnuts, crispy prosciutto, crispy onions, pickled red onions, and buttermilk ranch.</p><br>
                     <h3>Chicken Raspberry Nut $10.99</h3>
-                    <p>Greens, grilled chicken breast, feta cheese, red onions, fresh berries, candied pecans, salt, and pepper. Served with a slice of bread, croutons, or roll and raspberry walnut vinaigrette dressing on the side.</p>
+                    <p>Greens, grilled chicken breast, feta cheese, red onions, fresh berries, candied pecans, salt, and pepper. Served with a slice of bread, croutons, or roll and raspberry walnut vinaigrette dressing on the side.</p><br>
                     <h3>Southwest BBQ Chicken $10.99</h3>
-                    <p>Greens, grilled BBQ chicken, fresh cilantro, tomatoes, black beans, avocado, red onion, corn, salt, and pepper. Served with crisp tortilla strips over the top and a Cotijo Cilantro dressing on the side.</p>
+                    <p>Greens, grilled BBQ chicken, fresh cilantro, tomatoes, black beans, avocado, red onion, corn, salt, and pepper. Served with crisp tortilla strips over the top and a Cotijo Cilantro dressing on the side.</p><br>
                     <h3>Large Green Avocado $9.99</h3>
-                    <p>Greens, mozzarella cheese, tomatoes, cucumbers, red onions, avocado, salt, and pepper.  Served with a slice of bread, croutons, or roll and ranch dressing on the side.</p>
+                    <p>Greens, mozzarella cheese, tomatoes, cucumbers, red onions, avocado, salt, and pepper.  Served with a slice of bread, croutons, or roll and ranch dressing on the side.</p><br>
                     <h3>Bowtie Pesto Pasta Salad $9.99</h3>
                     <p>Housemade bowtie pasta with pesto, mozzarella and cherry tomatoes.</p>
-                  </div>
+                </div>
 
-                  <div id="desserts" class="tabcontent">
-                    <h2>Desserts</h2>
+                <div id="desserts" class="tabcontent">
+                    <h2>Desserts</h2><br>
                     <h3>Lemon Velvet Tart $4.79</h3>
-                    <p>A shortbread tart shell imported from Switzerland, layered with white chocolate, homemade raspberry filling, and creamy lemon velvet. Topped with a fresh raspberry.</p>
+                    <p>A shortbread tart shell imported from Switzerland, layered with white chocolate, homemade raspberry filling, and creamy lemon velvet. Topped with a fresh raspberry.</p><br>
                     <h3>Chocolate Mousse Dome $4.79</h3>
-                    <p>Chocolate cake, with a mound of imported Swiss chocolate mousse, covered with imported chocolate ganache and topped with whipped topping. </p>
+                    <p>Chocolate cake, with a mound of imported Swiss chocolate mousse, covered with imported chocolate ganache and topped with whipped topping. </p><br>
                     <h3>Gluten-free Double Peanut Butter Cookie $3.39</h3>
-                    <p>A rich peanut butter cookie loaded with peanut butter chips. </p>
+                    <p>A rich peanut butter cookie loaded with peanut butter chips. </p><br>
                     <h3>Dairy-free Raspberry Almond Muffin Top $4.79</h3>
-                    <p>Muffin batter filled with fresh raspberries and a hint of lemon. Topped with a toasted almond streusel and raspberry glaze.</p>
+                    <p>Muffin batter filled with fresh raspberries and a hint of lemon. Topped with a toasted almond streusel and raspberry glaze.</p><br>
                     <h3>Gluten-free Raspberry Almond Cake $4.79</h3>
                     <p>Almond cake base with pastry cream and raspberries.</p>
-                  </div>
+                </div>
 
-                  <div id="sides" class="tabcontent">
-                    <h2>Sides</h2>
+                <div id="sides" class="tabcontent">
+                    <h2>Sides</h2><br>
                     <h3>Stuffed Mushrooms $11.50</h3>
-                    <p>Mushroom caps flled with sausage, goat cheese, ricotta + spinach, mediterranean vinaigrette </p>
+                    <p>Mushroom caps flled with sausage, goat cheese, ricotta + spinach, mediterranean vinaigrette </p><br>
                     <h3>Calamari Fritti $19.50</h3>
-                    <p>Crispy calamari, calabrian pepper pesto, citrys black pepper aioli</p>
+                    <p>Crispy calamari, calabrian pepper pesto, citrys black pepper aioli</p><br>
                     <h3>Spinach & Artichoke Dip $8.50</h3>
                     <p>spinach, artichokes, parmesan, mozzarella, hint of spice, garlic-brushed rosemary bread</p>
-                  </div>
+                </div>
 
-                  <div id="drinks" class="tabcontent">
-                    <h2>Drinks</h2>
+                <div id="drinks" class="tabcontent">
+                    <h2>Drinks</h2><br>
                     <h3>Fresh Lemonade $2.99</h3>
-                    <p>Fresh everyday, choice of lemon, raspberry, lime, or strawberry. 12oz.</p>
+                    <p>Fresh everyday, choice of lemon, raspberry, lime, or strawberry. 12oz.</p><br>
                     <h3>Strawberry Tsunami Smoothie $6.39</h3>
-                    <p>Cranberry juice, pineapple sherbet, peaches, and strawberries</p>
+                    <p>Cranberry juice, pineapple sherbet, peaches, and strawberries</p><br>
                     <h3>No Dairy Berry Smoothie $6.39</h3>
-                    <p>Guava juice, peaches, strawberry, and banana.</p>
+                    <p>Guava juice, peaches, strawberry, and banana.</p><br>
                     <h3>Mornin' Sunshine Smoothie $6.39</h3>
-                    <p>Orange juice, nonfat vanilla yogurt, strawberry, and banana.</p>
+                    <p>Orange juice, nonfat vanilla yogurt, strawberry, and banana.</p><br>
                     <h3>Planet Peaches Smoothie $6.39</h3>
                     <p>Peach juice, nonfat vanilla yogurt, peaches, and mango</p>
-                  </div>
+                </div>
             </section>
-            <img src="images/benedict-burger.jpg">
-            <img src="images/pizza.jpg">
-            <img src="images/cake.jpg">
-            <img src="images/pancake.jpg">
-            <div class="inspiration-background"></div>
-            <h2>Our inspiration</h2>
-            <p>Beyond serving delicious and healthy food, our main purpose is to change lives from the inside out. This purpose is reflected by an evergreen menu featuring flavors from around the world, made with only whole ingredients—unprocessed and unrefined—to help everyone eat better, feel different.</p>
-            <img src="images/garden.jpg">
+            <div class="picture-border">
+                <div class="container1">
+                    <img src="images/pancake.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Banana Nut Pancakes</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/turkey.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">BLT Panini</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/benedict-burger.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Benedict Burger</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/pizza.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">BBQ Chicken Pizza</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/ravioli.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Seafood Ravioli</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/soup.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Creamy Tomato Soup</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/salad.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Large Green Avocado Salad</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/cake.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Gluten-free Raspberry Almond Cake</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/calamari.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Calamari Fritti</div>
+                    </div>
+                </div>
+                <div class="container1">
+                    <img src="images/lemonade.jpg" class="image1">
+                    <div class="middle1">
+                        <div class="text1">Fresh Lemonade</div>
+                    </div>
+                </div>
+            </div>
+            <div class="inspiration-background">
+                <div id="inspiration-quote">
+                    <h2>Our inspiration</h2><br>
+                    <p>Beyond serving delicious and healthy food, our main purpose is to change lives from the inside out. This purpose is reflected by an evergreen menu featuring flavors from around the world, made with only <br>whole ingredients—unprocessed and unrefined—to help everyone eat better, feel different.</p>
+                </div>
+                <img src="images/garden.jpg" id="garden-img">
+            </div>
         </main>
         <footer>
             <div class="footer-logo">
@@ -259,6 +325,31 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+    </script>
+    <script>
+        function openMenu(evt, menuName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the link that opened the tab
+            document.getElementById(menuName).style.display = "block";
+            if(evt) {
+                evt.currentTarget.className += " active";
+            }
+        }
+        openMenu(null, 'breakfasts')
     </script>
 </body>
 </html>
