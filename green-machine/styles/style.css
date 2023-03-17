@@ -82,7 +82,7 @@ nav a:hover {
 .button-box:hover {
     transform: scale(1.1);
 }
-.see-menu, .get-here, #contactus-footer, #site-plan-footer {
+.see-menu, .get-here, .contactus, #contactus-footer, #site-plan-footer {
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -90,7 +90,7 @@ nav a:hover {
     font-family: lato;
 }
 
-.see-menu, #contactus-footer, #site-plan-footer {
+.see-menu, .contactus, #contactus-footer, #site-plan-footer {
     background-color: white;
     color: black;
 }
@@ -290,6 +290,7 @@ footer {
 #para-grid p {
     font-family: "Reenie Beanie";
     font-size: 1.4em;
+    color: black;
 }
 #para-grid .small {
     font-family: "josefin sans";
@@ -335,6 +336,7 @@ footer {
 .find-us-text p {
     font-family: "lato";
     line-height: 2em;
+    color: black;
 } 
 
 /* CLASSES PAGE */
@@ -376,6 +378,62 @@ footer {
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.image2 {
+    background: linear-gradient(rgba(42, 46, 48,.15), rgba(42, 46, 48,.55)), url("../images/oranges.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+}
+
+.classes-title {
+    font-family: "reenie beanie";
+    font-size: 4em;
+    margin: 5% 0;
+    color: white;
+    text-align: center;
+}
+
+#classes-main {
+    display: flex;
+    flex-wrap:wrap;
+    row-gap: 10px;
+    width: 100%;
+    align-items: center;
+    background-color: #111;
+}
+
+#classes-main .container {
+    width: 43.2%;
+    margin: 50px;
+}
+
+.background-camp {
+    background-color: rgba(197, 116, 43,70%);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-top:whitesmoke dotted 3px;
+    border-bottom: whitesmoke dotted 3px;
+}
+
+.background-camp h2, p{
+    text-align: center;
+    color: white;
+}
+
+.background-camp h2 {
+    padding: 25px;
+}
+
+.background-camp p {
+    padding-bottom: 45px;
+}
+
+.background-camp h2 {
+    font-variant: small-caps;
 }
 
 
@@ -524,10 +582,12 @@ footer {
     font-variant: small-caps;
     text-decoration: underline;
     text-decoration-color: #5c8660;
+    text-align: center;
 }
 #inspiration-quote p {
     font-size: 2em;
     font-family: "reenie beanie";
+    color: black;
 }   
 
 
@@ -536,33 +596,33 @@ footer {
 /* CONTACT US */
 form {
     /* Center the form on the page */
-    margin: 20px auto;
+    margin: 60px auto 20px auto;
     width: 400px;
     /* Form outline */
-    padding: 1em;
+    padding: 1.5em;
     border: 1px solid #ccc;
     border-radius: 1em;
-  }
+    background-color: whitesmoke;
+}
   
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
   
 form li + li {
     margin-top: 1em;
-  }
+}
   
 label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
     text-align: right;
-  }
+}
   
-input, 
-    textarea {
+input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
@@ -573,12 +633,12 @@ input,
   
     /* Match form field borders */
     border: 1px solid #999;
-  }
+}
   
 input:focus, textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #000;
-  }
+}
   
 textarea {
     /* Align multiline text fields with their labels */
@@ -586,18 +646,32 @@ textarea {
   
     /* Provide space to type some text */
     height: 5em;
-  }
+}
   
 .button {
     /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
-  
+    padding-left: 140px; /* same size as the label elements */
+    margin-left: 0.3em;
+    
+}
+
 button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
-  }
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    font-family: lato;
+    background-color: #5c8660;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #5c8660;
+    border: #5c8660 solid 2px;
+    font-weight: bold;
+}
 
 #feedback {
     background-color: antiquewhite;
@@ -605,12 +679,26 @@ button {
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;
+    padding: 1em;
     /* make this element invisible until we are ready for it */
     display: none;      
 }
 .moveDown {
     margin-top: 3em;
+}
+
+#send-message {
+    font-family: lato;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#contact-main {
+    height: 312px;
+}
+
+#contact-body {
+    background-color: white;
 }
 
 /* .paralax {
@@ -623,12 +711,6 @@ button {
 
 /* Fixed nav bar: 
     https://www.w3schools.com/howto/howto_css_fixed_menu.asp  */
- 
-/* bottom border nav links
-    https://www.w3schools.com/howto/howto_css_navbar_border.asp  */
 
 /* Hero image typing effect
     https://www.w3schools.com/howto/howto_js_typewriter.asp  */
-
-/* Menu Vertical Tabs
-    https://www.w3schools.com/howto/howto_js_vertical_tabs.asp  */
