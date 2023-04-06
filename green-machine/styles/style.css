@@ -6,8 +6,7 @@
     padding: 0;
 }
 #content {
-    max-width: 1600px;
-    width: 100%;
+    max-width: 3200px;
     font-family: "josefin sans";
     margin: 0;
     padding: 0;
@@ -45,6 +44,7 @@ nav a:hover {
     width: 100px;
     grid-column: 1/2;
     margin: 5% 40%;
+    
 }
 .logo-header:hover {
     opacity: .7;
@@ -109,6 +109,10 @@ footer {
     color: white;
     font-family: lato;
     padding: 30px 0 15px 0;
+}
+
+footer p {
+    color: white;
 }
 
 .footer-class {
@@ -440,8 +444,14 @@ footer {
 /* MENU PAGE */
 
 .menu{
-    box-sizing: border-box
+    box-sizing: border-box;
 }
+
+.tabcontent p {
+    color: black;
+    text-align: left;
+}
+
 
 /* Style the tab */
 .tab {
@@ -714,3 +724,8 @@ button:hover {
 
 /* Hero image typing effect
     https://www.w3schools.com/howto/howto_js_typewriter.asp  */
+
+
+
+
+    
